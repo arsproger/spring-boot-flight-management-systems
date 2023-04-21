@@ -1,7 +1,7 @@
 package com.example.flightmanagementsystems.controllers;
 
-import com.example.flightmanagementsystems.dto.PassengerDTO;
-import com.example.flightmanagementsystems.mapper.PassengerMapper;
+import com.example.flightmanagementsystems.dtos.PassengerDTO;
+import com.example.flightmanagementsystems.mappers.PassengerMapper;
 import com.example.flightmanagementsystems.models.Passenger;
 import com.example.flightmanagementsystems.services.PassengerService;
 import org.springframework.beans.factory.annotation.Autowired;

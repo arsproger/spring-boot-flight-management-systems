@@ -1,4 +1,4 @@
-package com.example.flightmanagementsystems.dto;
+package com.example.flightmanagementsystems.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,9 +10,9 @@ import org.springframework.hateoas.RepresentationModel;
 @AllArgsConstructor
 @Setter
 @Getter
-public class PassengerDTO extends RepresentationModel<PassengerDTO> {
+public class FlightScheduleDTO extends RepresentationModel<FlightScheduleDTO> {
     private Long id;
-    private String name;
-    private Integer passportNumber;
-    private String seatAssignment;
+    private String departureAirport;
+    private String arrivalAirport;
+    private Integer availableSeats;
 }

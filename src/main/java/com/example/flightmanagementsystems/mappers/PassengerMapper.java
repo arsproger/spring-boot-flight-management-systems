@@ -1,6 +1,6 @@
-package com.example.flightmanagementsystems.mapper;
+package com.example.flightmanagementsystems.mappers;
 
-import com.example.flightmanagementsystems.dto.PassengerDTO;
+import com.example.flightmanagementsystems.dtos.PassengerDTO;
 import com.example.flightmanagementsystems.models.Passenger;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

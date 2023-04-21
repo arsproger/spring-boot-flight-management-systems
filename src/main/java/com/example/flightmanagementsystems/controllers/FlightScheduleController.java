@@ -1,7 +1,7 @@
 package com.example.flightmanagementsystems.controllers;
 
-import com.example.flightmanagementsystems.dto.FlightScheduleDTO;
-import com.example.flightmanagementsystems.mapper.FlightScheduleMapper;
+import com.example.flightmanagementsystems.dtos.FlightScheduleDTO;
+import com.example.flightmanagementsystems.mappers.FlightScheduleMapper;
 import com.example.flightmanagementsystems.models.FlightSchedule;
 import com.example.flightmanagementsystems.services.FlightScheduleService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.example.flightmanagementsystems.dto;
+package com.example.flightmanagementsystems.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
