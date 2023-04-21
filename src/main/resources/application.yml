@@ -1,0 +1,21 @@
+spring:
+  config:
+    import: config.yml
+
+  datasource:
+    url: ${config.url}
+    username: ${config.username}
+    password: ${config.password}
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+
+    generate-ddl: true
+    show-sql: true
+
+    hibernate:
+      ddl-auto: create
+
